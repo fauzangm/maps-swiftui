@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		226149742AF0963E0083FB47 /* grocies_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226149732AF0963E0083FB47 /* grocies_appApp.swift */; };
+		226149762AF0963E0083FB47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226149752AF0963E0083FB47 /* ContentView.swift */; };
+		2261497B2AF096400083FB47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2261497A2AF096400083FB47 /* Preview Assets.xcassets */; };
+		226149852AF096400083FB47 /* grocies_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226149842AF096400083FB47 /* grocies_appTests.swift */; };
+		2261498F2AF096400083FB47 /* grocies_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2261498E2AF096400083FB47 /* grocies_appUITests.swift */; };
+		226149912AF096400083FB47 /* grocies_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226149902AF096400083FB47 /* grocies_appUITestsLaunchTests.swift */; };
+		2293A00A2AF3544E005A985F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2293A0092AF3544E005A985F /* Assets.xcassets */; };
+		2293A00F2AF355BA005A985F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293A00E2AF355BA005A985F /* Location.swift */; };
+		2293A0122AF3562D005A985F /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293A0112AF3562D005A985F /* LocationsDataService.swift */; };
+		2293A0142AF35704005A985F /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293A0132AF35704005A985F /* LocationsView.swift */; };
+		2293A0162AF3576C005A985F /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293A0152AF3576C005A985F /* LocationViewModel.swift */; };
+		2293A0192AF38723005A985F /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293A0182AF38723005A985F /* LocationListView.swift */; };
+		2293A01B2AF39219005A985F /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293A01A2AF39219005A985F /* LocationPreviewView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		226149812AF096400083FB47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226149682AF0963E0083FB47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2261496F2AF0963E0083FB47;
+			remoteInfo = "grocies-app";
+		};
+		2261498B2AF096400083FB47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 226149682AF0963E0083FB47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2261496F2AF0963E0083FB47;
+			remoteInfo = "grocies-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		226149702AF0963E0083FB47 /* grocies-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "grocies-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		226149732AF0963E0083FB47 /* grocies_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grocies_appApp.swift; sourceTree = "<group>"; };
+		226149752AF0963E0083FB47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2261497A2AF096400083FB47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		226149802AF096400083FB47 /* grocies-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "grocies-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		226149842AF096400083FB47 /* grocies_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grocies_appTests.swift; sourceTree = "<group>"; };
+		2261498A2AF096400083FB47 /* grocies-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "grocies-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2261498E2AF096400083FB47 /* grocies_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grocies_appUITests.swift; sourceTree = "<group>"; };
+		226149902AF096400083FB47 /* grocies_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grocies_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2293A0092AF3544E005A985F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2293A00E2AF355BA005A985F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2293A0112AF3562D005A985F /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		2293A0132AF35704005A985F /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		2293A0152AF3576C005A985F /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		2293A0182AF38723005A985F /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		2293A01A2AF39219005A985F /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2261496D2AF0963E0083FB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2261497D2AF096400083FB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226149872AF096400083FB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		226149672AF0963E0083FB47 = {
+			isa = PBXGroup;
+			children = (
+				226149722AF0963E0083FB47 /* grocies-app */,
+				226149832AF096400083FB47 /* grocies-appTests */,
+				2261498D2AF096400083FB47 /* grocies-appUITests */,
+				226149712AF0963E0083FB47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		226149712AF0963E0083FB47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				226149702AF0963E0083FB47 /* grocies-app.app */,
+				226149802AF096400083FB47 /* grocies-appTests.xctest */,
+				2261498A2AF096400083FB47 /* grocies-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		226149722AF0963E0083FB47 /* grocies-app */ = {
+			isa = PBXGroup;
+			children = (
+				2293A0102AF3560F005A985F /* DataServices */,
+				2293A00D2AF35568005A985F /* Models */,
+				2293A00C2AF3555E005A985F /* ViewModels */,
+				2293A00B2AF35555005A985F /* Views */,
+				2293A0092AF3544E005A985F /* Assets.xcassets */,
+				226149732AF0963E0083FB47 /* grocies_appApp.swift */,
+				226149752AF0963E0083FB47 /* ContentView.swift */,
+				226149792AF096400083FB47 /* Preview Content */,
+			);
+			path = "grocies-app";
+			sourceTree = "<group>";
+		};
+		226149792AF096400083FB47 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2261497A2AF096400083FB47 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		226149832AF096400083FB47 /* grocies-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				226149842AF096400083FB47 /* grocies_appTests.swift */,
+			);
+			path = "grocies-appTests";
+			sourceTree = "<group>";
+		};
+		2261498D2AF096400083FB47 /* grocies-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2261498E2AF096400083FB47 /* grocies_appUITests.swift */,
+				226149902AF096400083FB47 /* grocies_appUITestsLaunchTests.swift */,
+			);
+			path = "grocies-appUITests";
+			sourceTree = "<group>";
+		};
+		2293A00B2AF35555005A985F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2293A0132AF35704005A985F /* LocationsView.swift */,
+				2293A0182AF38723005A985F /* LocationListView.swift */,
+				2293A01A2AF39219005A985F /* LocationPreviewView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2293A00C2AF3555E005A985F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2293A0152AF3576C005A985F /* LocationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2293A00D2AF35568005A985F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2293A00E2AF355BA005A985F /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2293A0102AF3560F005A985F /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				2293A0112AF3562D005A985F /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2261496F2AF0963E0083FB47 /* grocies-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226149942AF096400083FB47 /* Build configuration list for PBXNativeTarget "grocies-app" */;
+			buildPhases = (
+				2261496C2AF0963E0083FB47 /* Sources */,
+				2261496D2AF0963E0083FB47 /* Frameworks */,
+				2261496E2AF0963E0083FB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "grocies-app";
+			productName = "grocies-app";
+			productReference = 226149702AF0963E0083FB47 /* grocies-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2261497F2AF096400083FB47 /* grocies-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 226149972AF096400083FB47 /* Build configuration list for PBXNativeTarget "grocies-appTests" */;
+			buildPhases = (
+				2261497C2AF096400083FB47 /* Sources */,
+				2261497D2AF096400083FB47 /* Frameworks */,
+				2261497E2AF096400083FB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				226149822AF096400083FB47 /* PBXTargetDependency */,
+			);
+			name = "grocies-appTests";
+			productName = "grocies-appTests";
+			productReference = 226149802AF096400083FB47 /* grocies-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		226149892AF096400083FB47 /* grocies-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2261499A2AF096400083FB47 /* Build configuration list for PBXNativeTarget "grocies-appUITests" */;
+			buildPhases = (
+				226149862AF096400083FB47 /* Sources */,
+				226149872AF096400083FB47 /* Frameworks */,
+				226149882AF096400083FB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2261498C2AF096400083FB47 /* PBXTargetDependency */,
+			);
+			name = "grocies-appUITests";
+			productName = "grocies-appUITests";
+			productReference = 2261498A2AF096400083FB47 /* grocies-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		226149682AF0963E0083FB47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2261496F2AF0963E0083FB47 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2261497F2AF096400083FB47 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2261496F2AF0963E0083FB47;
+					};
+					226149892AF096400083FB47 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2261496F2AF0963E0083FB47;
+					};
+				};
+			};
+			buildConfigurationList = 2261496B2AF0963E0083FB47 /* Build configuration list for PBXProject "grocies-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 226149672AF0963E0083FB47;
+			productRefGroup = 226149712AF0963E0083FB47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2261496F2AF0963E0083FB47 /* grocies-app */,
+				2261497F2AF096400083FB47 /* grocies-appTests */,
+				226149892AF096400083FB47 /* grocies-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2261496E2AF0963E0083FB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2293A00A2AF3544E005A985F /* Assets.xcassets in Resources */,
+				2261497B2AF096400083FB47 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2261497E2AF096400083FB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226149882AF096400083FB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2261496C2AF0963E0083FB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2293A0122AF3562D005A985F /* LocationsDataService.swift in Sources */,
+				2293A0162AF3576C005A985F /* LocationViewModel.swift in Sources */,
+				2293A01B2AF39219005A985F /* LocationPreviewView.swift in Sources */,
+				226149762AF0963E0083FB47 /* ContentView.swift in Sources */,
+				2293A0142AF35704005A985F /* LocationsView.swift in Sources */,
+				2293A0192AF38723005A985F /* LocationListView.swift in Sources */,
+				2293A00F2AF355BA005A985F /* Location.swift in Sources */,
+				226149742AF0963E0083FB47 /* grocies_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2261497C2AF096400083FB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226149852AF096400083FB47 /* grocies_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226149862AF096400083FB47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2261498F2AF096400083FB47 /* grocies_appUITests.swift in Sources */,
+				226149912AF096400083FB47 /* grocies_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		226149822AF096400083FB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2261496F2AF0963E0083FB47 /* grocies-app */;
+			targetProxy = 226149812AF096400083FB47 /* PBXContainerItemProxy */;
+		};
+		2261498C2AF096400083FB47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2261496F2AF0963E0083FB47 /* grocies-app */;
+			targetProxy = 2261498B2AF096400083FB47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		226149922AF096400083FB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		226149932AF096400083FB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		226149952AF096400083FB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"grocies-app/Preview Content\"";
+				DEVELOPMENT_TEAM = SQPLJC7PYB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.go.grocies.grocies-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		226149962AF096400083FB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"grocies-app/Preview Content\"";
+				DEVELOPMENT_TEAM = SQPLJC7PYB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.go.grocies.grocies-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		226149982AF096400083FB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQPLJC7PYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.go.grocies.grocies-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grocies-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/grocies-app";
+			};
+			name = Debug;
+		};
+		226149992AF096400083FB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQPLJC7PYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.go.grocies.grocies-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grocies-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/grocies-app";
+			};
+			name = Release;
+		};
+		2261499B2AF096400083FB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQPLJC7PYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.go.grocies.grocies-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "grocies-app";
+			};
+			name = Debug;
+		};
+		2261499C2AF096400083FB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQPLJC7PYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.go.grocies.grocies-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "grocies-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2261496B2AF0963E0083FB47 /* Build configuration list for PBXProject "grocies-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226149922AF096400083FB47 /* Debug */,
+				226149932AF096400083FB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226149942AF096400083FB47 /* Build configuration list for PBXNativeTarget "grocies-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226149952AF096400083FB47 /* Debug */,
+				226149962AF096400083FB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		226149972AF096400083FB47 /* Build configuration list for PBXNativeTarget "grocies-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226149982AF096400083FB47 /* Debug */,
+				226149992AF096400083FB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2261499A2AF096400083FB47 /* Build configuration list for PBXNativeTarget "grocies-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2261499B2AF096400083FB47 /* Debug */,
+				2261499C2AF096400083FB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 226149682AF0963E0083FB47 /* Project object */;
+}
