@@ -30,6 +30,9 @@ class LocationViewModel: ObservableObject {
     //show location detial via sheet
     @Published var sheetLocation: Location? = nil
     
+    //show webview
+    @Published var showWebView: Bool = false
+    
     init(){
         let location =  LocationsDataService.locations
         self.location = location
@@ -48,6 +51,12 @@ class LocationViewModel: ObservableObject {
     func toogleLocationsList(){
         withAnimation(.easeInOut) {
             showLocationsList = !showLocationsList
+        }
+    }
+    
+    func toogleShowWebView(){
+        withAnimation(.easeInOut) {
+            showWebView = !showWebView
         }
     }
     

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		224938D12AF48E43002BD7C7 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224938D02AF48E43002BD7C7 /* LocationDetailView.swift */; };
+		224938D32AF4C87C002BD7C7 /* WikiWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224938D22AF4C87C002BD7C7 /* WikiWebView.swift */; };
 		226149742AF0963E0083FB47 /* grocies_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226149732AF0963E0083FB47 /* grocies_appApp.swift */; };
 		226149762AF0963E0083FB47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226149752AF0963E0083FB47 /* ContentView.swift */; };
 		2261497B2AF096400083FB47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2261497A2AF096400083FB47 /* Preview Assets.xcassets */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		224938D02AF48E43002BD7C7 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		224938D22AF4C87C002BD7C7 /* WikiWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiWebView.swift; sourceTree = "<group>"; };
 		226149702AF0963E0083FB47 /* grocies-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "grocies-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		226149732AF0963E0083FB47 /* grocies_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grocies_appApp.swift; sourceTree = "<group>"; };
 		226149752AF0963E0083FB47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				2293A01A2AF39219005A985F /* LocationPreviewView.swift */,
 				2293A01C2AF3A9CE005A985F /* LocationMapNotationComponent.swift */,
 				224938D02AF48E43002BD7C7 /* LocationDetailView.swift */,
+				224938D22AF4C87C002BD7C7 /* WikiWebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				2293A00F2AF355BA005A985F /* Location.swift in Sources */,
 				224938D12AF48E43002BD7C7 /* LocationDetailView.swift in Sources */,
 				226149742AF0963E0083FB47 /* grocies_appApp.swift in Sources */,
+				224938D32AF4C87C002BD7C7 /* WikiWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

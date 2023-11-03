@@ -29,6 +29,10 @@ struct LocationDetailView: View {
             }
           
         }
+        .sheet(isPresented: $vm.showWebView, onDismiss: nil) {
+            WikiWebView(urlString: location.link)
+            
+        }
         .overlay(backButton,alignment: .topLeading)
         .background(.ultraThinMaterial)
         .ignoresSafeArea()
@@ -70,24 +74,30 @@ extension LocationDetailView {
     }
     
     private var descriptionSection : some View{
-        VStack(alignment: .leading, spacing: 8){
-            Text(location.description)
-                .font(.subheadline)
-                .foregroundColor(.secondary)
-            
-            if let url = URL(string: location.link){
-                Link("Read more on Wikipedia",destination: url)
-                    .font(.headline)
-                    .tint(.blue)
+      
+            VStack(alignment: .leading, spacing: 8){
+                Text(location.description)
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                
+                if URL(string: location.link) != nil{
+                    Text("Read more on Wikipedia")
+                        .font(.headline)
+                        .tint(.blue)
+                        .onTapGesture {
+                            vm.toogleShowWebView()
+                        }
+                }
+              
             }
-          
-        }
+    
+
     }
     
     private var mapLayer : some View{
         Map(coordinateRegion: .constant(MKCoordinateRegion(
             center: location.coordinates,
-            span: vm.mapSpan)),
+            span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))),
             annotationItems: [location]) { location in
             MapAnnotation(coordinate: location.coordinates){
                 LocationMapNotationComponent()

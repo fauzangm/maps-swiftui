@@ -12,16 +12,16 @@ class LocationsDataService {
     
     static let locations: [Location] = [
         Location(
-            name: "Colosseum",
-            cityName: "Rome",
-            coordinates: CLLocationCoordinate2D(latitude: 41.8902, longitude: 12.4922),
-            description: "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age.",
+            name: "Monas",
+            cityName: "Jakarta",
+            coordinates: CLLocationCoordinate2D(latitude: -6.175392, longitude: 106.827153),
+            description: "Monas (Monumen Nasional) is a prominent landmark located in Jakarta, the capital city of Indonesia. Officially known as the National Monument, Monas was built to commemorate the struggle for Indonesian independence. It stands as a symbol of the nation's unity and pride.",
             imageNames: [
-                "rome-colosseum-1",
-                "rome-colosseum-2",
-                "rome-colosseum-3",
+                "monas-1",
+                "monas-2",
+                "monas-3",
             ],
-            link: "https://en.wikipedia.org/wiki/Colosseum"),
+            link: "https://id.wikipedia.org/wiki/Monumen_Nasional"),
         Location(
             name: "Pantheon",
             cityName: "Rome",
