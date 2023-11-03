@@ -20,6 +20,7 @@
 		2293A0162AF3576C005A985F /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293A0152AF3576C005A985F /* LocationViewModel.swift */; };
 		2293A0192AF38723005A985F /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293A0182AF38723005A985F /* LocationListView.swift */; };
 		2293A01B2AF39219005A985F /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293A01A2AF39219005A985F /* LocationPreviewView.swift */; };
+		2293A01D2AF3A9CE005A985F /* LocationMapNotationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2293A01C2AF3A9CE005A985F /* LocationMapNotationComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		2293A0152AF3576C005A985F /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		2293A0182AF38723005A985F /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		2293A01A2AF39219005A985F /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		2293A01C2AF3A9CE005A985F /* LocationMapNotationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapNotationComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				2293A0132AF35704005A985F /* LocationsView.swift */,
 				2293A0182AF38723005A985F /* LocationListView.swift */,
 				2293A01A2AF39219005A985F /* LocationPreviewView.swift */,
+				2293A01C2AF3A9CE005A985F /* LocationMapNotationComponent.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				2293A0162AF3576C005A985F /* LocationViewModel.swift in Sources */,
 				2293A01B2AF39219005A985F /* LocationPreviewView.swift in Sources */,
 				226149762AF0963E0083FB47 /* ContentView.swift in Sources */,
+				2293A01D2AF3A9CE005A985F /* LocationMapNotationComponent.swift in Sources */,
 				2293A0142AF35704005A985F /* LocationsView.swift in Sources */,
 				2293A0192AF38723005A985F /* LocationListView.swift in Sources */,
 				2293A00F2AF355BA005A985F /* Location.swift in Sources */,
